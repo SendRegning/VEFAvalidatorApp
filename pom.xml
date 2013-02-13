@@ -8,6 +8,10 @@
   <packaging>pom</packaging>
 
   <name>validering</name>
+    <scm>
+        <connection>scm:git:ssh://github.com/SendRegning/VEFAvalidatorApp.git/</connection>
+        <developerConnection>scm:git:ssh://github.com/SendRegning/VEFAvalidatorApp.git</developerConnection>
+    </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
