@@ -3,7 +3,7 @@
   <parent>
     <artifactId>validering</artifactId>
     <groupId>no.difi.vefa</groupId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1-patch</version>
     <relativePath>..</relativePath>
   </parent>
   <artifactId>validate-ws</artifactId>
