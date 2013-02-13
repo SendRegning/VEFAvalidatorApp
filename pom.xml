@@ -3,7 +3,7 @@
 
   <groupId>no.difi.vefa</groupId>
   <artifactId>validering</artifactId>
-  <version>1.0.1-patch</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>validering</name>
