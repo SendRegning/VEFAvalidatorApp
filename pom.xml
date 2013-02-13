@@ -10,7 +10,7 @@
   <name>validering</name>
     <scm>
         <connection>scm:git:ssh://github.com/SendRegning/VEFAvalidatorApp.git/</connection>
-        <developerConnection>scm:git:ssh://github.com/SendRegning/VEFAvalidatorApp.git</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/SendRegning/VEFAvalidatorApp.git</developerConnection>
     </scm>
 
   <properties>
@@ -38,4 +38,19 @@
   <module>validate-lib</module>
   <module>validate-cli</module>
   </modules>
+
+    <distributionManagement>
+        <!-- use the following if you're not using a snapshot version. -->
+        <repository>
+            <id>nexus</id>
+            <name>Nexus repository</name>
+            <url>http://embla.sendregning.no:8081/nexus/content/repositories/sendregning/</url>
+        </repository>
+        <!-- use the following if you ARE using a snapshot version. -->
+        <snapshotRepository>
+            <id>nexus-snapshot</id>
+            <name>Nexus snapshot repository</name>
+            <url>http://embla.sendregning.no:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
