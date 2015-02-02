@@ -3,7 +3,7 @@
   <parent>
     <artifactId>validering</artifactId>
     <groupId>no.difi.vefa</groupId>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
     <relativePath>..</relativePath>
   </parent>
   <artifactId>validate-lib</artifactId>
@@ -50,7 +50,7 @@
 	<dependency>
 		<groupId>net.sf.saxon</groupId>
 		<artifactId>Saxon-HE</artifactId>
-		<version>9.4</version>
+        <version>9.6.0-4</version>
 	</dependency>
     <!-- Log4j -->
     <dependency>
